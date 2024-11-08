@@ -2,6 +2,8 @@
 title: Downloads
 redirect_from: 
   - /Downloads
+  - /display/support/Download+HDFView
+  - /display/support/Download+HDF5
 ---
 
 # HDF Software Downloads 
