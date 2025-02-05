@@ -11,6 +11,7 @@ redirect_from:
 See [API Compatibility Macros](/documentation/hdf5/latest/api-compat-macros.html) in HDF5 for details on using HDF5 version 1.14 with previous releases.
 
 
+* [Compatibility report for Release 1.14.6 versus Release 1.14.5](/releases/hdf5/v1_14/v1_14_6/downloads/compat_report/index.html)
 * [Compatibility report for Release 1.14.5 versus Release 1.14.4](/releases/hdf5/v1_14/v1_14_5/downloads/compat_report/index.html)
 * [Compatibility report for Release 1.14.4 versus Release 1.14.3](https://github.com/HDFGroup/hdf5/releases/download/hdf5_1.14.4.2/hdf5-1.14.4-2.html.abi.reports.tar.gz)
 * [Compatibility report for Release 1.14.3 versus Release 1.14.2](https://htmlpreview.github.io/?https://raw.githubusercontent.com/HDFGroup/hdf5doc/master/html/ADGuide/Compatibility_Report/hdf5-1.14.2-vs-hdf5-1.14.3-interface_compatibility_report.html)
@@ -28,6 +29,7 @@ This page provides information on the changes that a maintenance developer needs
 
 The following information is included below.
 
+* <a href="#6versus5">Release 1.14.6 versus Release 1.14.5</a>
 * <a href="#5versus4">Release 1.14.5 versus Release 1.14.4</a>
 * <a href="#4versus3">Release 1.14.4 versus Release 1.14.3</a>
 * <a href="#3versus2">Release 1.14.3 versus Release 1.14.2</a>
@@ -36,6 +38,14 @@ The following information is included below.
 * <a href="#0versus12_2">Release 1.14.1 versus Release 1.12.2</a>
 
 The release notes also list changes made to the library, but these notes tend to be more at a more detail-oriented level. The release notes may include new features, bugs fixed, supported configuration features, platforms on which the library has been tested, and known problems. The release note files are listed in each release section and can be found at the top level of the HDF5 source code tree in the release_docs directory.
+
+<h2 id="6versus5">Release 1.14.6 versus Release 1.14.5</h2>
+
+### New and Changed Functions, Classes, Subroutines, Wrappers, and Macros
+
+*** UNDER CONSTRUCTION ***
+
+* [Compatibility report for Release 1.14.6 versus Release 1.14.5](https://github.com/HDFGroup/hdf5/releases/download/hdf5_1.14.6/hdf5-1.14.6.html.abi.reports.tar.gz)
 
 <h2 id="5versus4">Release 1.14.5 versus Release 1.14.4</h2>
 
