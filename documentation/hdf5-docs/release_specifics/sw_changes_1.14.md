@@ -43,8 +43,6 @@ The release notes also list changes made to the library, but these notes tend to
 
 ### New and Changed Functions, Classes, Subroutines, Wrappers, and Macros
 
-*** UNDER CONSTRUCTION ***
-
 * [Compatibility report for Release 1.14.6 versus Release 1.14.5](https://github.com/HDFGroup/hdf5/releases/download/hdf5_1.14.6/hdf5-1.14.6.html.abi.reports.tar.gz)
 
 <h2 id="5versus4">Release 1.14.5 versus Release 1.14.4</h2>
