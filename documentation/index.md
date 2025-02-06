@@ -7,7 +7,7 @@ redirect_from:
 # HDF Software Documentation
 
 ## HDF5 Library, Tools, and Extensions
-* [Documentation (latest)](https://support.hdfgroup.org/releases/hdf5/documentation/latest/) - User Guide, Reference Manual, and other documentation
+* [Documentation (latest)](https://support.hdfgroup.org/documentation/hdf5/latest/) - User Guide, Reference Manual, and other documentation
 * [Release Specific Information](https://support.hdfgroup.org/releases/hdf5/documentation/release_specific_info.html) - Information specific to each release series
 * [HDF5 Application Topics](https://support.hdfgroup.org/releases/hdf5/documentation/hdf5_topics_list.html) - General and advanced topics in HDF5 for application developers
 * [Registered Filter Plugins](https://github.com/HDFGroup/hdf5_plugins/blob/master/docs/RegisteredFilterPlugins.md) - List of registered filter plugins
