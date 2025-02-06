@@ -26,4 +26,4 @@ redirect_from:
 * New Features
 * [Software Changes from Release to Release](https://support.hdfgroup.org/releases/hdf5/documentation/release_specifics/sw_changes_1.8.html)
 
-### [API Compatibility Macros in HDF5](https://docs.hdfgroup.org/hdf5/develop/api-compat-macros.html)
+### [API Compatibility Macros in HDF5](https://support.hdfgroup.org/documentation/hdf5/latest/api-compat-macros.html)
