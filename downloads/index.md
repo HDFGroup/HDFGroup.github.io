@@ -33,7 +33,13 @@ redirect_from:
 | ---- | ----| 
 | [h4h5tools 2.2.5](h4h5tools/h4h5tools_2_2_5.html) | Convert HDF4 files to HDF5 files | 
 
+
 ## FTP Archives
 
- ---- | ----| 
-| [FTP Archives]({{site.url_docs}}/ftp/index.html) | Older releases of software   |
+| Archive | Details |
+| ---- | ---- |
+| [HDF5 Release Archive](http://support.hdfgroup.org/ftp/HDF5/releases/index.html) | Older releases of HDF5 software from archived FTP site |
+| [HDFView Release Archive](https://support.hdfgroup.org/ftp/HDF5/releases/HDF-JAVA/index.html) | Older releases of HDFView software from archived FTP site |
+| [HDF4 Release Archive](http://support.hdfgroup.org/ftp/HDF/releases/index.html) | Older releases of HDF4 software from archived FTP site |
+| [HDF Tools Release Archive](http://support.hdfgroup.org/ftp/HDF5/releases/tools/index.html) | Older releases of HDF Tools from archived FTP site |
+
