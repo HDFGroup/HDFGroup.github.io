@@ -8,8 +8,8 @@ redirect_from:
 
 ## HDF5 Library, Tools, and Extensions
 * [Documentation (latest)](https://support.hdfgroup.org/documentation/hdf5/latest/) - User Guide, Reference Manual, and other documentation
-* [Release Specific Information](https://support.hdfgroup.org/releases/hdf5/documentation/release_specific_info.html) - Information specific to each release series
-* [HDF5 Application Topics](https://support.hdfgroup.org/releases/hdf5/documentation/hdf5_topics_list.html) - General and advanced topics in HDF5 for application developers
+* [Release Specific Information](/documentation/hdf5-docs/release_specific_info.html) - Information specific to each release series
+* [HDF5 Application Topics](/documentation/hdf5-docs/hdf5_topics_list.html) - General and advanced topics in HDF5 for application developers
 * [Registered Filter Plugins](https://github.com/HDFGroup/hdf5_plugins/blob/master/docs/RegisteredFilterPlugins.md) - List of registered filter plugins
 * [Registered Virtual File Drivers (VFDs)](https://support.hdfgroup.org/releases/hdf5/documentation/registered_virtual_file_drivers_vfds.html) - List of registered VFDs
 * [Registered Virtual Object Layer (VOL) Connectors](https://support.hdfgroup.org/releases/hdf5/documentation/registered_vol_connectors.html) - List of registered VOL connectors
