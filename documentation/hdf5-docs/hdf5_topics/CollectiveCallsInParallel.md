@@ -10,14 +10,14 @@ redirect_from:
 This document addresses two topics of concern in a parallel computing environment:
 * HDF5 functions that must be called collectively and when
 * Properties that must be used in a coordinated manner
-The term Macro in the “Additional notes” column indicates that the first item in the “Function” column of the same row is a macro that is selectively mapped to one of the two immediately-following functions. For example, H5Acreate is a macro that can be mapped to either H5Acreate1 or H5Acreate2. This mapping is configurable and is explained in [API Compatibility Macros in HDF5](API compatibility...). The macro structure was introduced at HDF5 Release 1.8.0.
+The term Macro in the “Additional notes” column indicates that the first item in the “Function” column of the same row is a macro that is selectively mapped to one of the two immediately-following functions. For example, H5Acreate is a macro that can be mapped to either H5Acreate1 or H5Acreate2. This mapping is configurable and is explained in [API Compatibility Macros in HDF5](/documentation/hdf5/latest/api-compat-macros.html). The macro structure was introduced at HDF5 Release 1.8.0.
 
 ## Always collective
 The following functions must always be called collectively.
 
 | API |   Function  | All processes:<br>same datatype<br>& dataspace | All processes:<br>same access<br>properties | All processes:<br>same creation<br>properties | Available<br>in releases since | Additional notes |
 | --- | ----------- | ---------------- | ---------------------------------------- | ------------------------------------------ | ------------------------------ | ----------- |
-| H5A | H5Acreate<br>H5Acreate1<br>H5Acreate2 | ✓ | ✓ | ✓ | 1.8.x | [Macro](API compatibility...)<br>The function H5Acreate was renamed to H5Acreate1 at Release 1.8.0. |
+| H5A | H5Acreate<br>H5Acreate1<br>H5Acreate2 | ✓ | ✓ | ✓ | 1.8.x | [Macro](/documentation/hdf5/latest/api-compat-macros.html)<br>The function H5Acreate was renamed to H5Acreate1 at Release 1.8.0. |
 |     | H5Acreate_by_name                     | ✓ | ✓ | ✓ | 1.8.x | |
 |     | H5Adelete                             |   |   |   |       | |
 |     | H5Adelete_by_idx                      |   |   |   | 1.8.x | |
@@ -25,7 +25,7 @@ The following functions must always be called collectively.
 |     | H5Arename                             |   |   |   | 1.6.x | |
 |     | H5Arename_by_name                     |   |   |   | 1.8.x | |
 |     | H5Awrite                              |   |   |   |       | Because raw data for an attribute is cached locally, all processes must participate in order to guarantee that future H5Aread calls return correct results on all processes. |
-| H5D | H5Dcreate<br>H5Dcreate1<br>H5Dcreate2 | ✓ | ✓ | ✓ | 1.8.x | [Macro](API compatibility...)<br>The function H5Dcreate was renamed to H5Dcreate1 at Release 1.8.0. |
+| H5D | H5Dcreate<br>H5Dcreate1<br>H5Dcreate2 | ✓ | ✓ | ✓ | 1.8.x | [Macro](/documentation/hdf5/latest/api-compat-macros.html)<br>The function H5Dcreate was renamed to H5Dcreate1 at Release 1.8.0. |
 |     | H5Dcreate_anon                        | ✓ | ✓ | ✓ | 1.8.x | |
 |     | H5Dextend                             |   |   |   |       | All processes must participate only if the number of chunks in the dataset actually changes.<br>All processes must use the same dataspace dimensions. |
 |     | H5Dset_extent                         |   |   |   | 1.6.x | All processes must participate only if the number of chunks in the dataset actually changes.<br>All processes must use the same dataspace dimensions. |
@@ -36,7 +36,7 @@ The following functions must always be called collectively.
 |     | H5Fopen                               |   | ✓ |   |       | |
 |     | H5Freopen                             |   |   |   |       | |
 |     | H5Funmount                            |   |   |   |       | |
-| H5G | H5Gcreate<br>H5Gcreate1<br>H5Gcreate2 |   | ✓ | ✓ | 1.8.x | [Macro](API compatibility...)<br>The function H5Gcreate was renamed to H5Gcreate1 at Release 1.8.0. |
+| H5G | H5Gcreate<br>H5Gcreate1<br>H5Gcreate2 |   | ✓ | ✓ | 1.8.x | [Macro](/documentation/hdf5/latest/api-compat-macros.html)<br>The function H5Gcreate was renamed to H5Gcreate1 at Release 1.8.0. |
 |     | H5Gcreate_anon                        |   | ✓ | ✓ | 1.8.x | |
 |     | H5Glink                               |   |   |   |       | |
 |     | H5Glink2                              |   |   |   | 1.6.x | |
@@ -61,7 +61,7 @@ The following functions must always be called collectively.
 |     | H5Oset_comment                        |   |   |   | 1.8.x | |
 |     | H5Oset_comment_by_name                |   |   |   | 1.8.x | |
 | H5R | H5Rcreate                             |   |   |   |       | |
-| H5T | H5Tcommit<br>H5Tcommit1<br>H5Tcommit2 |   | ✓ | ✓ | 1.8.x | [Macro](API compatibility...)<br>The function H5Tcommit was renamed to H5Tcommit1 at Release 1.8.0. |
+| H5T | H5Tcommit<br>H5Tcommit1<br>H5Tcommit2 |   | ✓ | ✓ | 1.8.x | [Macro](/documentation/hdf5/latest/api-compat-macros.html)<br>The function H5Tcommit was renamed to H5Tcommit1 at Release 1.8.0. |
 |     | H5Tcommit_anon                        |   | ✓ | ✓ | 1.8.x | |
 
 ## Collective, unless target object will not be modified
@@ -77,9 +77,9 @@ The following functions must normally be called collectively. If, however, the t
 |     | H5Aopen_idx     |   | ✓ |   |       | |
 |     | H5Aopen_name    |   | ✓ |   |       | |
 | H5D | H5Dclose        |   |   |   | 1.8.x | 	All processes must participate only if all file identifiers for a file have been closed and this is the last outstanding object identifier. |
-|     | H5Dopen<br>H5Dopen1<br>H5Dopen2 |   | ✓ |   | 1.8.x | [Macro](API compatibility...)<br>The function H5Dopen was renamed to H5Dopen1 at Release 1.8.0. |
+|     | H5Dopen<br>H5Dopen1<br>H5Dopen2 |   | ✓ |   | 1.8.x | [Macro](/documentation/hdf5/latest/api-compat-macros.html)<br>The function H5Dopen was renamed to H5Dopen1 at Release 1.8.0. |
 | H5G | H5Gclose        |   |   |   |       | All processes must participate only if all file identifiers for a file have been closed and this is the last outstanding object identifier. |
-|     | H5Gopen<br>H5Gopen1<br>H5Gopen2 |   | ✓ |   | 1.8.x | [Macro](API compatibility...)<br>The function H5Gopen was renamed to H5Dopen1 at Release 1.8.0. |
+|     | H5Gopen<br>H5Gopen1<br>H5Gopen2 |   | ✓ |   | 1.8.x | [Macro](/documentation/hdf5/latest/api-compat-macros.html)<br>The function H5Gopen was renamed to H5Dopen1 at Release 1.8.0. |
 | H5I | H5Iget_file_id  |   |   |   | 1.8.x | |
 | H5O | H5Oclose        |   |   |   | 1.8.x | All processes must participate only if all file identifiers for a file have been closed and this is the last outstanding object identifier. |
 |     | H5Oopen         |   | ✓ |   | 1.8.x | |
@@ -89,7 +89,7 @@ The following functions must normally be called collectively. If, however, the t
 | H5T | H5Tclose        |   |   |   |       | All processes must participate only if the datatype is for a committed datatype, all the file identifiers for the file have been closed, and this is the last outstanding object identifier. |
      H5Topen
 H5Topen1
-H5Topen2         ✓         1.8.x    [Macro](API compatibility...)
+H5Topen2         ✓         1.8.x    [Macro](/documentation/hdf5/latest/api-compat-macros.html)
 The function H5Topen was renamed to H5Topen1 at Release 1.8.0.
 
 ## Properties
