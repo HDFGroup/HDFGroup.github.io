@@ -11,9 +11,9 @@ redirect_from:
 See [API Compatibility Macros](/documentation/hdf5/latest/api-compat-macros.html) in HDF5 for details on using HDF5 version 1.14 with previous releases.
 
 
-* [Compatibility report for Release 1.14.6 versus Release 1.14.5](/releases/hdf5/v1_14/v1_14_6/downloads/compat_report/index.html)
-* [Compatibility report for Release 1.14.5 versus Release 1.14.4](/releases/hdf5/v1_14/v1_14_5/downloads/compat_report/index.html)
-* [Compatibility report for Release 1.14.4 versus Release 1.14.3](https://github.com/HDFGroup/hdf5/releases/download/hdf5_1.14.4.2/hdf5-1.14.4-2.html.abi.reports.tar.gz)
+* [Compatibility report for Release 1.14.6 versus Release 1.14.5](/releases/hdf5/v1_14/v1_14_6/downloads/compat_report/index.html) [GZ file](https://github.com/HDFGroup/hdf5/releases/download/hdf5_1.14.6/hdf5-1.14.6.html.abi.reports.tar.gz)
+* [Compatibility report for Release 1.14.5 versus Release 1.14.4](/releases/hdf5/v1_14/v1_14_5/downloads/compat_report/index.html) [GZ file](https://github.com/HDFGroup/hdf5/releases/download/hdf5_1.14.5/hdf5-1.14.5.html.abi.reports.tar.gz)
+* Compatibility report for Release 1.14.4 versus Release 1.14.3 [GZ file](https://github.com/HDFGroup/hdf5/releases/download/hdf5_1.14.4.2/hdf5-1.14.4-2.html.abi.reports.tar.gz)
 * [Compatibility report for Release 1.14.3 versus Release 1.14.2](https://htmlpreview.github.io/?https://raw.githubusercontent.com/HDFGroup/hdf5doc/master/html/ADGuide/Compatibility_Report/hdf5-1.14.2-vs-hdf5-1.14.3-interface_compatibility_report.html)
 * [Compatibility report for Release 1.14.2 versus Release 1.14.1](https://htmlpreview.github.io/?https://raw.githubusercontent.com/HDFGroup/hdf5doc/master/html/ADGuide/Compatibility_Report/hdf5-1.14.1-2-vs-hdf5-1.14.2-interface_compatibility_report.html)
 * [Compatibility report for Release 1.14.1 versus Release 1.14.0](https://htmlpreview.github.io/?https://raw.githubusercontent.com/HDFGroup/hdf5doc/master/html/ADGuide/Compatibility_Report/hdf5-1.14.0-vs-hdf5-1.14.1-interface_compatibility_report.html)
@@ -43,7 +43,7 @@ The release notes also list changes made to the library, but these notes tend to
 
 ### New and Changed Functions, Classes, Subroutines, Wrappers, and Macros
 
-* [Compatibility report for Release 1.14.6 versus Release 1.14.5](https://github.com/HDFGroup/hdf5/releases/download/hdf5_1.14.6/hdf5-1.14.6.html.abi.reports.tar.gz)
+* [Compatibility report for Release 1.14.6 versus Release 1.14.5](/releases/hdf5/v1_14/v1_14_6/downloads/compat_report/index.html)
 
 <h2 id="5versus4">Release 1.14.5 versus Release 1.14.4</h2>
 
@@ -58,7 +58,7 @@ Following are the new APIs/macros introduced in HDF5-1.14.5.
 | [H5Epause_stack](/documentation/hdf5/latest/group___h5_e.html#ga4c0064d86c4ce9b0ddef832dcc4158ed) | Pause pushing errors on an error stack |
 | [H5Eresume_stack](/documentation/hdf5/latest/group___h5_e.html#gaab20d99bd5f79d4e3c1996ddc22c3fa8) | Resume pushing errors on an error stack |
 
-* [Compatibility report for Release 1.14.5 versus Release 1.14.4](https://github.com/HDFGroup/hdf5/releases/download/hdf5_1.14.5/hdf5-1.14.5.html.abi.reports.tar.gz)
+* [Compatibility report for Release 1.14.5 versus Release 1.14.4](/releases/hdf5/v1_14/v1_14_5/downloads/compat_report/index.html)
 
 <h2 id="4versus3">Release 1.14.4 versus Release 1.14.3</h2>
 
@@ -176,7 +176,7 @@ HDF5 version 1.14.0 introduces the following new features:
 
 Users might find these names familiar already and that is because they were introduced in the experimental series 1.13.
 
-In addition, this version provides many new C APIs and other user-visible changes in behavior in the transition from HDF5 Release 1.12.2 to Release 1.14.0.  HDF5 1.14.0 adds no new API calls that require use of the API Compatibility Macros for the main library.  Some calls have been removed or have had their signature change, however.
+In addition, this version provides many new C APIs and other user-visible changes in behavior in the transition from HDF5 Release 1.12.2 to Release 1.14.0.  HDF5 1.14.0 adds no new API calls that require use of the [API Compatibility Macros](/documentation/hdf5/latest/api-compat-macros.html) for the main library.  Some calls have been removed or have had their signature change, however.
 
 New and Changed Functions, Classes, Subroutines, Wrappers, and Macros
 In the C Interface (main library)

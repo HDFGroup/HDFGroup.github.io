@@ -12,7 +12,7 @@ Versioned Functions and Struct with Associated Macros
 Property List Encoding and Decoding Functions
 External File Prefix Functions
 Versioned Functions and Struct with Associated Macros
-Two functions in the HDF5 C interface, and a struct associated with one of those functions, have been versioned in this release. At the same time, interface compatibility macros were created for programmatic management of these functions. See API Compatibility Macros in HDF5 for a detailed discussion of versioned functions and structs and the related macros.
+Two functions in the HDF5 C interface, and a struct associated with one of those functions, have been versioned in this release. At the same time, interface compatibility macros were created for programmatic management of these functions. See [API Compatibility Macros in HDF5](/documentation/hdf5/latest/api-compat-macros.html) for a detailed discussion of versioned functions and structs and the related macros.
 
 These functions, struct, and macros are documented in the HDF5 Reference Manual:
 
