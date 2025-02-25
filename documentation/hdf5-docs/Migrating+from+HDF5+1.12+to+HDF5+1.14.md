@@ -7,7 +7,7 @@ redirect_from:
 # Migrating from HDF5 1.12 to HDF5 1.14
 
 ## API Changes
-There are new API calls that require API Compatibility Macros in HDF5 1.14.0. There are, however, two API calls which have had their signature change.
+There are new API calls that require [API Compatibility Macros](/documentation/hdf5/latest/api-compat-macros.html) in HDF5 1.14.0. There are, however, two API calls which have had their signature change.
 
 ### `H5Iregister_type()` / `H5I_free_t`
 The signature of `H5Iregister_type()` did not change, but the `H5I_free_t` callback it accepts did have its signature change to add an asynchronous request parameter. There is no API compatibility macro to paper over this change. The request parameter can be ignored in the callback if you are not concerned with asynchronous operations and future IDs. A description of how the request parameter should be used will be found in the (soon to be released) HDF5 Asynchronous Programming Guide.

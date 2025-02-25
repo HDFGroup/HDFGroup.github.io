@@ -10,14 +10,14 @@ Also see the video presentation: [Moving Applications from 1.10 to 1.12](https:/
 
 There were many existing functions that were modified in 1.12. Applications created with 1.10 or earlier that use these functions will encounter errors when compiled with 1.12. This page describes how to compile 1.10 and earlier applications with 1.12 without modifying an application, and provides details on the functions that changed for users who wish to update their applications.
 
-* [Compiling 1.10 and earlier applications with 1.12](#Compiling-1.10-and-earlier-applications-with-1.12)
-* [Functions that changed](#Functions-that-changed)
+* <a href="#compiling-1.10-and-earlier-applications-with-1.12">Compiling 1.10 and earlier applications with 1.12</a>
+* <a href="#funcsthatchanged">Functions that changed</a>
 
 For further information, see:
 
-* [New Features in 1.12](new_features_1_12.md)
-* [Software Changes from release to release](sw_changes_1.12.md)
-* [API Compatibility Macros in HDF5](https://docs.hdfgroup.org/hdf5/develop/api-compat-macros.html)
+* [New Features in 1.12](new_features_1_12.html)
+* [Software Changes from release to release](sw_changes_1.12.html)
+* [API Compatibility Macros in HDF5](/documentation/hdf5/latest/api-compat-macros.html)
 
 ## Compiling 1.10 and earlier applications with 1.12
 
@@ -38,7 +38,7 @@ Autotools:
 ./configure --with-default-api-version=v110
 
 CMake:
-If using the source code packaged with CMake configuration files (CMake-hdf5-1.12.0*), edit HDF5options.cmake, and add this line:
+If using the source code packaged with CMake configuration files (CMake-hdf5-1.12.0\*), edit HDF5options.cmake, and add this line:
 
 set(ADD_BUILD_OPTIONS "${ADD_BUILD_OPTIONS} -DDEFAULT_API_VERSION:STRING=v110")
 
@@ -56,7 +56,7 @@ Functions were modified in HDF5 version 1.12 to support a token type used in the
 The updated versions of the functions have a number (for eg '2' or '3') at the end of the original function name.   
 The original versions of these functions were retained and renamed to have an earlier number (for eg '1') at the end of the original function name.  
 A macro was created with the name of the original function.   
-Please read [API Compatibility Macros in HDF5](api_comp_macros.md) for more details on how the function names changed in version 1.12.
+Please read [API Compatibility Macros in HDF5](/documentation/hdf5/latest/api-compat-macros.html) for more details on how the function names changed in version 1.12.
 ~~~
 
 ## Token Type
@@ -81,7 +81,7 @@ This change affected the following functions:
 |                                                 |                                      |                                 |
 
 ## Encoding Properties
-These functions were introduced in HDF5 version 1.12 as part of the H5Sencode format change to enable 64-bit selection encodings and a dataspace selection that is tied to a file. See the [H5Sencode / H5Sdecode Format Change - RFC](https://docs.hdfgroup.org/hdf5/rfc/H5Sencode_format.docx.pdf) format change RFC for details.
+These functions were introduced in HDF5 version 1.12 as part of the H5Sencode format change to enable 64-bit selection encodings and a dataspace selection that is tied to a file. See the [H5Sencode / H5Sdecode Format Change - RFC](https://support.hdfgroup.org/releases/hdf5/documentation/rfc/H5Sencode_format.docx.pdf) format change RFC for details.
 
 | Original Function in 1.10/Maroc in 1.12 (H5xxx) | Deprecated Function in 1.12 (H5xxx1) | New Function (using token type) |
 | ----------------------------------------------- | ------------------------------------ | ------------------------------- |

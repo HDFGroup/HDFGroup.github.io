@@ -30,7 +30,7 @@ The following information is included below.
 * <a href="#1versus0">Release 1.10.1 versus Release 1.10.0 (and 1.10.0-patch1)</a>
 * <a href="#0versus8_16">Release 1.10.0 of March 2016 versus Release 1.8.16</a>
 
-See [API Compatibility Reports for 1.10]() for information regarding compatibility with previous releases.
+See [API Compatibility Reports for 1.10](/documentation/hdf5/latest/api-compat-macros.html) for information regarding compatibility with previous releases.
 
 <h2 id="compatibility">Compatibility and Performance Issues</h2>
 
@@ -93,20 +93,20 @@ The following are new C functions in this release:
 
 | Function                      | Description                                               |
 | ----------------------------- | --------------------------------------------------------- |
-| [H5Pget\_fapl\_splitter](https://support.hdfgroup.org/documentation/hdf5/latest/group___f_a_p_l.html#gaf6ac1c131acee33dfb878593dfefb4ac) | Retrieves information for a splitter file access property list    |
-| [H5Pget\_fapl_splitter](https://support.hdfgroup.org/documentation/hdf5/latest/group___f_a_p_l.html#gaf6ac1c131acee33dfb878593dfefb4ac) | Retrieves information for a splitter file access property list    |
-| [H5Pset\_fapl_splitter](https://support.hdfgroup.org/documentation/hdf5/latest/group___f_a_p_l.html#ga49f386ea235bb48128e54c962c499f07) | Sets the file access property list to use the splitter driver     |
-| [H5Pget\_file_locking](https://support.hdfgroup.org/documentation/hdf5/latest/group___f_a_p_l.html#ga5de19a5a8ac23ca417aa2d49d708dc2d) | Gets the file locking property values |
-| [H5Pset\_file_locking](https://support.hdfgroup.org/documentation/hdf5/latest/group___f_a_p_l.html#ga503e9ff6121a67cf53f8b67054ed9391) | Sets the file locking property values |
-| [H5get\_free_list_sizes](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5.html#ga2310d963a6f48ec12fda8c0c8bbefbbb) | Gets the current size of the free lists used to manage memory  |
-| [H5Scombine_hyperslab](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_s.html#gae7578a93bb7b22989bcb737f26b60ad1) | Performs an operation on a hyperslab and an existing selection and returns the resulting selection |
-| [H5Scombine_select](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_s.html#ga356600d12d3cf0db53cc27b212d75b08) | Combines two hyperslab selections with an operation, returning a dataspace with the resulting selection |
-| [H5Smodify_select](https://support.hdfgroup.org/documentation/hdf5/latest/group___j_h5_s.html#ga814b2cb29fcdfe79892737f4337d0ef9) | Refines a hyperslab selection with an operation using a second hyperslab to modify it |
-| [H5Sselect_adjust](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_s.html#ga64f08c187b899f2728d4ac016d44f890) | Adjusts a selection by subtracting an offset |
-| [H5Sselect_copy](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_s.html#ga57e5eba2d1b282803835ba3f7e0b9bfa) | Copies a selection from one dataspace to another |
-| [H5Sselect_intersect_block](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_s.html#ga51472bcb9af024675fba6294a6aefa5e) | Checks if current selection intersects with a block |
-| [H5Sselect_project_intersection](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_s.html#ga1e914ba45afb15ded99a0afeaf124c04) | Projects the intersection of two source selections to a destination selection |
-| [H5Sselect_shape_same](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_s.html#gafc6cafae877900ee060709eaa0b9b261) | Checks if two selections are the same shape |
+| [H5Pget\_fapl\_splitter](/documentation/hdf5/latest/group___f_a_p_l.html#gaf6ac1c131acee33dfb878593dfefb4ac) | Retrieves information for a splitter file access property list    |
+| [H5Pget\_fapl_splitter](/documentation/hdf5/latest/group___f_a_p_l.html#gaf6ac1c131acee33dfb878593dfefb4ac) | Retrieves information for a splitter file access property list    |
+| [H5Pset\_fapl_splitter](/documentation/hdf5/latest/group___f_a_p_l.html#ga49f386ea235bb48128e54c962c499f07) | Sets the file access property list to use the splitter driver     |
+| [H5Pget\_file_locking](/documentation/hdf5/latest/group___f_a_p_l.html#ga5de19a5a8ac23ca417aa2d49d708dc2d) | Gets the file locking property values |
+| [H5Pset\_file_locking](/documentation/hdf5/latest/group___f_a_p_l.html#ga503e9ff6121a67cf53f8b67054ed9391) | Sets the file locking property values |
+| [H5get\_free_list_sizes](/documentation/hdf5/latest/group___h5.html#ga2310d963a6f48ec12fda8c0c8bbefbbb) | Gets the current size of the free lists used to manage memory  |
+| [H5Scombine_hyperslab](/documentation/hdf5/latest/group___h5_s.html#gae7578a93bb7b22989bcb737f26b60ad1) | Performs an operation on a hyperslab and an existing selection and returns the resulting selection |
+| [H5Scombine_select](/documentation/hdf5/latest/group___h5_s.html#ga356600d12d3cf0db53cc27b212d75b08) | Combines two hyperslab selections with an operation, returning a dataspace with the resulting selection |
+| [H5Smodify_select](/documentation/hdf5/latest/group___j_h5_s.html#ga814b2cb29fcdfe79892737f4337d0ef9) | Refines a hyperslab selection with an operation using a second hyperslab to modify it |
+| [H5Sselect_adjust](/documentation/hdf5/latest/group___h5_s.html#ga64f08c187b899f2728d4ac016d44f890) | Adjusts a selection by subtracting an offset |
+| [H5Sselect_copy](/documentation/hdf5/latest/group___h5_s.html#ga57e5eba2d1b282803835ba3f7e0b9bfa) | Copies a selection from one dataspace to another |
+| [H5Sselect_intersect_block](/documentation/hdf5/latest/group___h5_s.html#ga51472bcb9af024675fba6294a6aefa5e) | Checks if current selection intersects with a block |
+| [H5Sselect_project_intersection](/documentation/hdf5/latest/group___h5_s.html#ga1e914ba45afb15ded99a0afeaf124c04) | Projects the intersection of two source selections to a destination selection |
+| [H5Sselect_shape_same](/documentation/hdf5/latest/group___h5_s.html#gafc6cafae877900ee060709eaa0b9b261) | Checks if two selections are the same shape |
 
 #### In the C++ API
 
@@ -116,7 +116,7 @@ The following C++ wrappers were added:
 | FileAccPropList::setFileLocking | See H5Pset\_FILE\_LOCKING for details |
 
 ### Compatibility Notes and Reports
-See the [API compatibility report between 1.10.7 and 1.10.8]() for information regarding compatibility with the previous release.
+See the [API compatibility report between 1.10.6 and 1.10.7](https://htmlpreview.github.io/?https://github.com/HDFGroup/hdf5doc/blob/master/html/ADGuide/Compatibility_Report/hdf5-1.10.7-interface_compatibility_report.html) for information regarding compatibility with the previous release.
 
 <h2 id="6versus5">Release 1.10.6 versus 1.10.5</h2>
 
@@ -127,10 +127,10 @@ The following are new C functions in this release:
 
 | Function              | Description                                                  |
 | --------------------- | ------------------------------------------------------------ |
-| [H5Pget\_fapl_hdfs](https://support.hdfgroup.org/documentation/hdf5/latest/group___f_a_p_l.html#gae59e7d8e0e8823e6dd6034b66418ed00) | Gets the information of the given Read-Only HDFS virtual file driver |
-| [H5Pget\_fapl_ros3](https://support.hdfgroup.org/documentation/hdf5/latest/group___f_a_p_l.html#ga13e273711e160cbd58e60c701b4f50e6) | Gets the information of the given Read-Only S3 virtual file driver |
-| [H5Pset\_fapl_hdfs](https://support.hdfgroup.org/documentation/hdf5/latest/group___f_a_p_l.html#ga970d077c8e712a4692f43fa4f38dde14) | Sets up Read-Only HDFS virtual file driver |
-| [H5Pset\_fapl_ros3](https://support.hdfgroup.org/documentation/hdf5/latest/group___f_a_p_l.html#gaad28d8c24f236590193215c5ae7a8f18) | Sets up Read-Only S3 virtual file driver |
+| [H5Pget\_fapl_hdfs](/documentation/hdf5/latest/group___f_a_p_l.html#gae59e7d8e0e8823e6dd6034b66418ed00) | Gets the information of the given Read-Only HDFS virtual file driver |
+| [H5Pget\_fapl_ros3](/documentation/hdf5/latest/group___f_a_p_l.html#ga13e273711e160cbd58e60c701b4f50e6) | Gets the information of the given Read-Only S3 virtual file driver |
+| [H5Pset\_fapl_hdfs](/documentation/hdf5/latest/group___f_a_p_l.html#ga970d077c8e712a4692f43fa4f38dde14) | Sets up Read-Only HDFS virtual file driver |
+| [H5Pset\_fapl_ros3](/documentation/hdf5/latest/group___f_a_p_l.html#gaad28d8c24f236590193215c5ae7a8f18) | Sets up Read-Only S3 virtual file driver |
  
 #### In the C++ API
 
@@ -138,11 +138,11 @@ The following C++ wrappers were added:
 
 | Function              | Description                                                  |
 | --------------------- | ------------------------------------------------------------ |
-| LinkCreatPropList::getCreateIntermediateGroup() const | See [H5Pget\_create_intermediate_group](https://support.hdfgroup.org/documentation/hdf5/latest/group___l_c_p_l.html#gaf7db1b7ce19703f30f1827b7c899c3b0) |
-| LinkCreatPropList::setCreateIntermediateGroup(bool crt\_intmd\_group) const | See [H5Pset\_create_intermediate_group](https://support.hdfgroup.org/documentation/hdf5/latest/group___l_c_p_l.html#ga66c4c5d3f34e5cf65d00e47a5387383c) |
+| LinkCreatPropList::getCreateIntermediateGroup() const | See [H5Pget\_create_intermediate_group](/documentation/hdf5/latest/group___l_c_p_l.html#gaf7db1b7ce19703f30f1827b7c899c3b0) |
+| LinkCreatPropList::setCreateIntermediateGroup(bool crt\_intmd\_group) const | See [H5Pset\_create_intermediate_group](/documentation/hdf5/latest/group___l_c_p_l.html#ga66c4c5d3f34e5cf65d00e47a5387383c) |
 
 ### Compatibility Notes and Reports
-See the [API compatibility report between 1.10.7 and 1.10.8]() for information regarding compatibility with the previous release.
+See the [API compatibility report between 1.10.5 and 1.10.6](https://htmlpreview.github.io/?https://github.com/HDFGroup/hdf5doc/blob/master/html/ADGuide/Compatibility_Report/hdf5-1.10.6-interface_compatibility_report.html) for information regarding compatibility with the previous release.
 
 <h2 id="5versus4">Release 1.10.5 versus 1.10.4</h2>
 
@@ -153,20 +153,20 @@ The following are new C functions in this release:
 
 | Function              | Description                                                  |
 | --------------------- | ------------------------------------------------------------ |
-| [H5Dget\_chunk_info](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_d.html#gaccff213d3e0765b86f66d08dd9959807) | Retrieves information about a chunk specified by the chunk index |
-| [H5Dget\_chunk_info_by_coord](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_d.html#ga408a49c6ec59c5b65ce4c791f8d26cb0) | Retrieves information about a chunk specified by its coordinates |
-| [H5Dget\_num_chunks](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_d.html#ga8e15897dcc5799d6c09806644b492d7a) | Retrieves number of chunks that have nonempty intersection with a specified selection |
-| [H5Fget\_dset\_no_attrs_hint](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_f.html#gacbf3ba8b36750c42b49740567a9732c4) | Retrieves the setting for determining whether the specified file does or does not create minimized dataset object headers |
-| [H5Fset\_dset\_no_attrs_hint](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_f.html#gafc0166070f920f037e6b1a5c66e5464c) |Sets the flag to create minimized dataset object headers |
-| [H5Pget\_dset\_no_attrs_hint](https://support.hdfgroup.org/documentation/hdf5/latest/group___d_c_p_l.html#ga2fd4f0446a38186db8256cef4c97a970) |Retrieves the setting for determining whether the specified DCPL does or does not create minimized dataset object headers |
-| [H5Pset\_dset\_no_attrs_hint](https://support.hdfgroup.org/documentation/hdf5/latest/group___d_c_p_l.html#gaf5ae8c0257c02e3fbe50bde70b1eb8be) |Sets the flag to create minimized dataset object headers |
+| [H5Dget\_chunk_info](/documentation/hdf5/latest/group___h5_d.html#gaccff213d3e0765b86f66d08dd9959807) | Retrieves information about a chunk specified by the chunk index |
+| [H5Dget\_chunk_info_by_coord](/documentation/hdf5/latest/group___h5_d.html#ga408a49c6ec59c5b65ce4c791f8d26cb0) | Retrieves information about a chunk specified by its coordinates |
+| [H5Dget\_num_chunks](/documentation/hdf5/latest/group___h5_d.html#ga8e15897dcc5799d6c09806644b492d7a) | Retrieves number of chunks that have nonempty intersection with a specified selection |
+| [H5Fget\_dset\_no_attrs_hint](/documentation/hdf5/latest/group___h5_f.html#gacbf3ba8b36750c42b49740567a9732c4) | Retrieves the setting for determining whether the specified file does or does not create minimized dataset object headers |
+| [H5Fset\_dset\_no_attrs_hint](/documentation/hdf5/latest/group___h5_f.html#gafc0166070f920f037e6b1a5c66e5464c) |Sets the flag to create minimized dataset object headers |
+| [H5Pget\_dset\_no_attrs_hint](/documentation/hdf5/latest/group___d_c_p_l.html#ga2fd4f0446a38186db8256cef4c97a970) |Retrieves the setting for determining whether the specified DCPL does or does not create minimized dataset object headers |
+| [H5Pset\_dset\_no_attrs_hint](/documentation/hdf5/latest/group___d_c_p_l.html#gaf5ae8c0257c02e3fbe50bde70b1eb8be) |Sets the flag to create minimized dataset object headers |
  
 
 The following changed in this release:
 
 | Function              | Description                                                  |
 | --------------------- | ------------------------------------------------------------ |
-| [H5Oget\_info](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_o.html#gaf4f302a33faba9e1c2b5f64c62ca4ed5)<br>[H5Oget\_info_by_name](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_o.html#ga16d8ac07f9244cfccb42b5f309ca6b3c)<br>[H5Oget\_info_by_idx](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_o.html#gafe764884e1530f86079288dd5895a7bd)<br>[H5Ovisit](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_o.html#ga5ce86255fcc34ceaf84a62551cd24233)<br>[H5Ovisit_by_name](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_o.html#gab02a69e88b11404e7fd61f55344b186c) | In 1.10.3 the original functions were versioned to H5Oget\_info*1 and H5Ovisit*1 and the macros H5Oget\_info* and H5Ovisit* were created. This broke the API compatibility for a maintenance release. In HDF5-1.10.5, the macros introduced in HDF5-1.10.3 were removed. The H5Oget\_info*1 and H5Ovisit*1 APIs were copied to H5Oget\_Info* and H5Ovisit*. As an example, H5Oget\_info and H5Oget\_info1 are identical in this release. |
+| [H5Oget\_info](/documentation/hdf5/latest/group___h5_o.html#gaf4f302a33faba9e1c2b5f64c62ca4ed5)<br>[H5Oget\_info_by_name](/documentation/hdf5/latest/group___h5_o.html#ga16d8ac07f9244cfccb42b5f309ca6b3c)<br>[H5Oget\_info_by_idx](/documentation/hdf5/latest/group___h5_o.html#gafe764884e1530f86079288dd5895a7bd)<br>[H5Ovisit](/documentation/hdf5/latest/group___h5_o.html#ga5ce86255fcc34ceaf84a62551cd24233)<br>[H5Ovisit_by_name](/documentation/hdf5/latest/group___h5_o.html#gab02a69e88b11404e7fd61f55344b186c) | In 1.10.3 the original functions were versioned to H5Oget\_info*1 and H5Ovisit*1 and the macros H5Oget\_info* and H5Ovisit* were created. This broke the API compatibility for a maintenance release. In HDF5-1.10.5, the macros introduced in HDF5-1.10.3 were removed. The H5Oget\_info*1 and H5Ovisit*1 APIs were copied to H5Oget\_Info* and H5Ovisit*. As an example, H5Oget\_info and H5Oget\_info1 are identical in this release. |
 
 #### In the C++ API
 
@@ -182,8 +182,8 @@ The following Fortran wrappers were added or changed:
 
 | Function          | Description   |
 | ----------------- | --------------|
-| [h5fget\_dset\_no\_attrs\_hint\_f](https://support.hdfgroup.org/documentation/hdf5/latest/group___f_h5_f.html#gaceb86e903eddc57846c8a249ab5b0a66)<br> [h5fset\_dset\_no\_attrs\_hint\_f](https://support.hdfgroup.org/documentation/hdf5/latest/group___f_h5_f.html#gafda7e4a737f10a9be280afcdbf468e61)<br> [h5pget\_dset\_no\_attrs\_hint\_f](https://support.hdfgroup.org/documentation/hdf5/latest/group___f_h5_p.html#ga7cc4d157c8502632af18454424aa58d6)<br> [h5pset\_dset\_no\_attrs\_hint\_f](https://support.hdfgroup.org/documentation/hdf5/latest/group___f_h5_p.html#ga3b2e599c1c38c395d6d9b1cdddee4f6a) | Wrappers for the dataset object header minimization calls. See [H5Fget\_dset\_no_attrs_hint](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_f.html#gacbf3ba8b36750c42b49740567a9732c4), [H5Fset\_dset\_no_attrs_hint](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_f.html#gafc0166070f920f037e6b1a5c66e5464c), [H5Pget\_dset\_no_attrs_hint](https://support.hdfgroup.org/documentation/hdf5/latest/group___d_c_p_l.html#ga2fd4f0446a38186db8256cef4c97a970), and [H5Pset\_dset\_no_attrs_hint](https://support.hdfgroup.org/documentation/hdf5/latest/group___d_c_p_l.html#gaf5ae8c0257c02e3fbe50bde70b1eb8be). |
-| [h5ovisit\_f](https://support.hdfgroup.org/documentation/hdf5/latest/group___f_h5_o.html#ga1aa4f84b78f029f048593b1ec0757a63)<br>[h5oget\_info\_by\_name\_f](https://support.hdfgroup.org/documentation/hdf5/latest/group___f_h5_o.html#ga40081a5f47dc7900a795c0df62791ff7)<br>[h5oget\_info\_f](https://support.hdfgroup.org/documentation/hdf5/latest/group___f_h5_o.html#gabdbe70d333edbc46cffd791495e3edea)<br>[h5oget\_info\_by\_idx\_f](https://support.hdfgroup.org/documentation/hdf5/latest/group___f_h5_o.html#ga6666adcfef409c0828390b75730f9987)<br>[h5ovisit\_by\_name\_f](https://support.hdfgroup.org/documentation/hdf5/latest/group___f_h5_o.html#gaed6f1ee04db6973cbffca2cf0c33348f)<br>| Added new Fortran 'fields' optional parameter. See [H5Ovisit2](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_o.html#gaa4ab542f581f4fc9a4eaa95debb29c9e), [H5Oget\_info_by_name2](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_o.html#ga0090da86c086c1c63a5acfaed39a035e), [H5Oget\_info2](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_o.html#ga06f896e14fe4fa940fbc2bc235e0cf74), [H5Oget\_info_by_idx2](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_o.html#ga85e15e65922874111da1a5efd5dd7bed), and [H5Ovisit_by_name2](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_o.html#ga9c155caf5499405fe403e1eb27b5beb6). |
+| [h5fget\_dset\_no\_attrs\_hint\_f](/documentation/hdf5/latest/group___f_h5_f.html#gaceb86e903eddc57846c8a249ab5b0a66)<br> [h5fset\_dset\_no\_attrs\_hint\_f](/documentation/hdf5/latest/group___f_h5_f.html#gafda7e4a737f10a9be280afcdbf468e61)<br> [h5pget\_dset\_no\_attrs\_hint\_f](/documentation/hdf5/latest/group___f_h5_p.html#ga7cc4d157c8502632af18454424aa58d6)<br> [h5pset\_dset\_no\_attrs\_hint\_f](/documentation/hdf5/latest/group___f_h5_p.html#ga3b2e599c1c38c395d6d9b1cdddee4f6a) | Wrappers for the dataset object header minimization calls. See [H5Fget\_dset\_no_attrs_hint](/documentation/hdf5/latest/group___h5_f.html#gacbf3ba8b36750c42b49740567a9732c4), [H5Fset\_dset\_no_attrs_hint](/documentation/hdf5/latest/group___h5_f.html#gafc0166070f920f037e6b1a5c66e5464c), [H5Pget\_dset\_no_attrs_hint](/documentation/hdf5/latest/group___d_c_p_l.html#ga2fd4f0446a38186db8256cef4c97a970), and [H5Pset\_dset\_no_attrs_hint](/documentation/hdf5/latest/group___d_c_p_l.html#gaf5ae8c0257c02e3fbe50bde70b1eb8be). |
+| [h5ovisit\_f](/documentation/hdf5/latest/group___f_h5_o.html#ga1aa4f84b78f029f048593b1ec0757a63)<br>[h5oget\_info\_by\_name\_f](/documentation/hdf5/latest/group___f_h5_o.html#ga40081a5f47dc7900a795c0df62791ff7)<br>[h5oget\_info\_f](/documentation/hdf5/latest/group___f_h5_o.html#gabdbe70d333edbc46cffd791495e3edea)<br>[h5oget\_info\_by\_idx\_f](/documentation/hdf5/latest/group___f_h5_o.html#ga6666adcfef409c0828390b75730f9987)<br>[h5ovisit\_by\_name\_f](/documentation/hdf5/latest/group___f_h5_o.html#gaed6f1ee04db6973cbffca2cf0c33348f)<br>| Added new Fortran 'fields' optional parameter. See [H5Ovisit2](/documentation/hdf5/latest/group___h5_o.html#gaa4ab542f581f4fc9a4eaa95debb29c9e), [H5Oget\_info_by_name2](/documentation/hdf5/latest/group___h5_o.html#ga0090da86c086c1c63a5acfaed39a035e), [H5Oget\_info2](/documentation/hdf5/latest/group___h5_o.html#ga06f896e14fe4fa940fbc2bc235e0cf74), [H5Oget\_info_by_idx2](/documentation/hdf5/latest/group___h5_o.html#ga85e15e65922874111da1a5efd5dd7bed), and [H5Ovisit_by_name2](/documentation/hdf5/latest/group___h5_o.html#ga9c155caf5499405fe403e1eb27b5beb6). |
 
  
 The following Fortran utility function was added:
@@ -207,19 +207,19 @@ The following Java wrappers were added or changed:
 | Function          | Description                                                  |
 | ----------------- | ------------------------------------------------------------ |
 | [H5Fset\_libver_bounds]() | See the C API  H5Fset\_libver_bounds for information on this function |
-| [H5Fget\_dset\_no_attrs_hint](documentation/doxygen/group___h5_f.html#gacbf3ba8b36750c42b49740567a9732c4) | |
+| [H5Fget\_dset\_no_attrs_hint](/documentation/hdf5/latest/group___h5_f.html#gacbf3ba8b36750c42b49740567a9732c4) | |
 | [H5Fset\_dset\_no_attrs_hint]() | |
 | [H5Pget\_dset\_no_attrs_hint]() | |
 | [H5Pset\_dset\_no_attrs_hint]() | |
 
-Wrappers for the dataset object header minimization calls  See [H5Fget\_dset\_no_attrs_hint](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_f.html#gacbf3ba8b36750c42b49740567a9732c4), [H5Fset\_dset\_no_attrs_hint](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_f.html#gafc0166070f920f037e6b1a5c66e5464c), [H5Pget\_dset\_no_attrs_hint](https://support.hdfgroup.org/documentation/hdf5/latest/group___d_c_p_l.html#ga2fd4f0446a38186db8256cef4c97a970), and H5Pset\_DSET\_NO\_ATTRS\_HINT for more information on these APIs.
+Wrappers for the dataset object header minimization calls  See [H5Fget\_dset\_no_attrs_hint](/documentation/hdf5/latest/group___h5_f.html#gacbf3ba8b36750c42b49740567a9732c4), [H5Fset\_dset\_no_attrs_hint](/documentation/hdf5/latest/group___h5_f.html#gafc0166070f920f037e6b1a5c66e5464c), [H5Pget\_dset\_no_attrs_hint](/documentation/hdf5/latest/group___d_c_p_l.html#ga2fd4f0446a38186db8256cef4c97a970), and H5Pset\_DSET\_NO\_ATTRS\_HINT for more information on these APIs.
 
 ### Compatibility Notes and Reports
-See the [API compatibility report between 1.10.5 and 1.10.2/1.10.3/1.10.4]() for details.
+See the [API compatibility report between 1.10.5 and 1.10.2/1.10.3/1.10.4](https://htmlpreview.github.io/?https://github.com/HDFGroup/hdf5doc/blob/master/html/ADGuide/Compatibility_Report/hdf5-1.10.6-interface_compatibility_report.html) for details.
 
 <h2 id="4versus3">Release 1.10.4 versus 1.10.3</h2>
 
-See the [API compatibility report between 1.10.4 and 1.10.3]() for details.
+See the [API compatibility report between 1.10.4 and 1.10.3](https://htmlpreview.github.io/?https://github.com/HDFGroup/hdf5doc/blob/master/html/ADGuide/Compatibility_Report/hdf5-1.10.6-interface_compatibility_report.html) for details.
 
 <h2 id="3versus2">Release 1.10.3 versus 1.10.2</h2>
 
@@ -238,35 +238,35 @@ H5Oget\_INFO1
 
 H5Oget\_INFO2
 
-The function H5Oget\_INFO was moved to [H5Oget\_info1](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_o.html#gaf3751684a6706e3ba49b863406011f80), and the macro H5Oget\_INFO was created that can be mapped to either H5Oget\_INFO1 or H5Oget\_INFO2. For HDF5-1.10 and earlier releases, H5Oget\_INFO is mapped to H5Oget\_INFO1 by default.
+The function H5Oget\_INFO was moved to [H5Oget\_info1](/documentation/hdf5/latest/group___h5_o.html#gaf3751684a6706e3ba49b863406011f80), and the macro H5Oget\_INFO was created that can be mapped to either H5Oget\_INFO1 or H5Oget\_INFO2. For HDF5-1.10 and earlier releases, H5Oget\_INFO is mapped to H5Oget\_INFO1 by default.
 H5Oget\_info_by_idx
 
 H5Oget\_info_by_idx1
 
 H5Oget\_info_by_idx2
 
-The function H5Oget\_info_by_idx was moved to [H5Oget\_info_by_idx1](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_o.html#ga7208d2cf198dcfc875603323841bffae), and the macro H5Oget\_info_by_idx was created that can be mapped to either H5Oget\_info_by_idx1 or H5Oget\_info_by_idx2. For HDF5-1.10 and earlier releases, H5Oget\_info_by_idx is mapped to H5Oget\_info_by_idx1 by default.
+The function H5Oget\_info_by_idx was moved to [H5Oget\_info_by_idx1](/documentation/hdf5/latest/group___h5_o.html#ga7208d2cf198dcfc875603323841bffae), and the macro H5Oget\_info_by_idx was created that can be mapped to either H5Oget\_info_by_idx1 or H5Oget\_info_by_idx2. For HDF5-1.10 and earlier releases, H5Oget\_info_by_idx is mapped to H5Oget\_info_by_idx1 by default.
 H5Oget\_info_by_name
 
 H5Oget\_info_by_name1
 
 H5Oget\_info_by_name2
 
-The function H5Oget\_info_by_name was moved to [H5Oget\_info_by_name1](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_o.html#ga96ce408ffda805210844246904da2842), and the macro H5Oget\_info_by_name was created that can be mapped to either H5Oget\_info_by_name1 or H5Oget\_info_by_name2. For HDF5-1.10 and earlier releases, H5Oget\_info_by_name is mapped to H5Oget\_info_by_name1 by default.
+The function H5Oget\_info_by_name was moved to [H5Oget\_info_by_name1](/documentation/hdf5/latest/group___h5_o.html#ga96ce408ffda805210844246904da2842), and the macro H5Oget\_info_by_name was created that can be mapped to either H5Oget\_info_by_name1 or H5Oget\_info_by_name2. For HDF5-1.10 and earlier releases, H5Oget\_info_by_name is mapped to H5Oget\_info_by_name1 by default.
 H5Ovisit
 
 H5Ovisit1
 
 H5Ovisit2
 
-The function H5Ovisit was moved to [H5Ovisit1](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_o.html#ga6efdb2a0a9fe9fe46695cc0f7bd993e7), and the macro H5Ovisit was created that can be mapped to either H5Ovisit1 or H5Ovisit2. For HDF5-1.10 and earlier releases, H5Ovisit is mapped to H5Ovisit1 by default.
+The function H5Ovisit was moved to [H5Ovisit1](/documentation/hdf5/latest/group___h5_o.html#ga6efdb2a0a9fe9fe46695cc0f7bd993e7), and the macro H5Ovisit was created that can be mapped to either H5Ovisit1 or H5Ovisit2. For HDF5-1.10 and earlier releases, H5Ovisit is mapped to H5Ovisit1 by default.
 H5Ovisit_by_name
 
 H5Ovisit_by_name1
 
 H5Ovisit_by_name2
 
-The function [H5Ovisit_by_name](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_o.html#gab02a69e88b11404e7fd61f55344b186c) was moved to [H5Ovisit_by_name1](https://support.hdfgroup.org/documentation/hdf5/latest/group___h5_o.html#gaffacf3bd66f4fe074099eae1c80914f2), and the macro H5Ovisit_by_name was created that can be mapped to either H5Ovisit_by_name1 or H5Ovisit_by_name2. For HDF5-1.10 and earlier releases, H5Ovisit_by_name is mapped to H5Ovisit_by_name1 by default.
+The function [H5Ovisit_by_name](/documentation/hdf5/latest/group___h5_o.html#gab02a69e88b11404e7fd61f55344b186c) was moved to [H5Ovisit_by_name1](/documentation/hdf5/latest/group___h5_o.html#gaffacf3bd66f4fe074099eae1c80914f2), and the macro H5Ovisit_by_name was created that can be mapped to either H5Ovisit_by_name1 or H5Ovisit_by_name2. For HDF5-1.10 and earlier releases, H5Ovisit_by_name is mapped to H5Ovisit_by_name1 by default.
  
 
 In the C High Level Interface
@@ -284,7 +284,7 @@ In the C++ API
 Several C++ wrappers were added or modified to provide additional support. See the API Compatibility Report for details.
 
 ### Compatibility Notes and Report
-See the [API compatibility report between 1.10.4 and 1.10.3]() for details.
+See the [API compatibility report between 1.10.4 and 1.10.3](https://htmlpreview.github.io/?https://github.com/HDFGroup/hdf5doc/blob/master/html/ADGuide/Compatibility_Report/hdf5-1.10.6-interface_compatibility_report.html) for details.
 
 <h2 id="2versus1">Release 1.10.2 versus 1.10.1</h2>
 
@@ -299,7 +299,7 @@ The following are new C functions in this release:
 | ----------------- | ------------------------------------------------------------ |
 | H5Dget\_chunk\_storage\_size]() | Returns storage amount allocated within a file for a raw data chunk in a dataset |
 | H5Fget\_eoa]() | Retrieves the file's EOA |
-| H5Fincrement\_filesize](documentation/doxygen/group___h5_f.html#gadbe82c1f6e16c21062fabd20b0ffccd4) | Sets the file's EOA to the maximum of (EOA, EOF) + increment |
+| H5Fincrement\_filesize](/documentation/hdf5/latest/group___h5_f.html#gadbe82c1f6e16c21062fabd20b0ffccd4) | Sets the file's EOA to the maximum of (EOA, EOF) + increment |
 
 | H5Fset\_libver\_bounds]() | Enables the switch of version bounds setting for a file |
 | H5FDdriver\_query]() | Queries a VFL driver for its feature flags when a file is not available (not documented in Reference Manual) |
@@ -387,7 +387,7 @@ A new option was added to h5diff:
 
 ### Compatibility Notes and Report
 
-See the [API compatibility report between 1.10.4 and 1.10.3]() for details.
+See the [API compatibility report between 1.10.4 and 1.10.3](https://htmlpreview.github.io/?https://github.com/HDFGroup/hdf5doc/blob/master/html/ADGuide/Compatibility_Report/hdf5-1.10.6-interface_compatibility_report.html) for details.
 
 <h2 id="1versus0">Release 1.10.1 versus 1.10.0</h2>
 
@@ -412,11 +412,11 @@ Metadata Cache Image:
 
 | Function              | Description                                                  |
 | --------------------- | ------------------------------------------------------------ |
-| [H5Pget\_mdc\_image\_config](https://support.hdfgroup.org/documentation/hdf5/latest/group___f_a_p_l.html#ga3012f7f3310c7d25ada7617896bef1ee)
+| [H5Pget\_mdc\_image\_config](/documentation/hdf5/latest/group___f_a_p_l.html#ga3012f7f3310c7d25ada7617896bef1ee)
 | Retrieves the metadata cache image configuration values for a file access property list. |
-| [H5Pset\_mdc\_image\_config](https://support.hdfgroup.org/documentation/hdf5/latest/group___f_a_p_l.html#gaf234199ad4cf9c708f45893f7f9cd4d3)
+| [H5Pset\_mdc\_image\_config](/documentation/hdf5/latest/group___f_a_p_l.html#gaf234199ad4cf9c708f45893f7f9cd4d3)
 | Sets the metadata cache image option for a file access property list. |
-| [H5Fget\_mdc\_image\_info](https://support.hdfgroup.org/documentation/hdf5/latest/group___m_d_c.html#ga7b37da15ff80c4aa5c275649f1f45b0a)
+| [H5Fget\_mdc\_image\_info](/documentation/hdf5/latest/group___m_d_c.html#ga7b37da15ff80c4aa5c275649f1f45b0a)
 | Gets information about a metadata cache image if it exists. |
 
 Metadata Cache Evict on Close:
@@ -424,35 +424,35 @@ Metadata Cache Evict on Close:
 
 | Function              | Description                                                  |
 | --------------------- | ------------------------------------------------------------ |
-| [H5Pget\_evict\_on\_close](https://support.hdfgroup.org/documentation/hdf5/latest/group___f_a_p_l.html#ga12789fcfeaea073c13202e6401f404a6)
+| [H5Pget\_evict\_on\_close](/documentation/hdf5/latest/group___f_a_p_l.html#ga12789fcfeaea073c13202e6401f404a6)
 | Retrieves the property list setting that determines whether an HDF5 object will be evicted from the library's metadata cache when it is closed. | 
-| [H5Pset\_evict\_on\_close](https://support.hdfgroup.org/documentation/hdf5/latest/group___f_a_p_l.html#gaa44cc0e592608e12082dad9305b3c74d)
+| [H5Pset\_evict\_on\_close](/documentation/hdf5/latest/group___f_a_p_l.html#gaa44cc0e592608e12082dad9305b3c74d)
 | Controls the library's behavior of evicting metadata associated with a closed object. | 
 
 Paged Aggregation:
 
 | Function              | Description                                                  |
 | --------------------- | ------------------------------------------------------------ |
-| [H5Pget\_file\_space\_page\_size](documentation/doxygen/group___f_c_p_l.html#gaab5e8c08e4f588e0af1d937fcebfc885) |
+| [H5Pget\_file\_space\_page\_size](/documentation/hdf5/latest/group___f_c_p_l.html#gaab5e8c08e4f588e0af1d937fcebfc885) |
 | Retrieves the file space page size for a file creation property list. |
-| [H5Pset\_file\_space\_page\_size](documentation/doxygen/group___f_c_p_l.html#gad012d7f3c2f1e1999eb1770aae3a4963) |
+| [H5Pset\_file\_space\_page\_size](/documentation/hdf5/latest/group___f_c_p_l.html#gad012d7f3c2f1e1999eb1770aae3a4963) |
 | Sets the file space page size (used with paged aggregation) for a file creation property list. |
-| [H5Pget\_file\_space\_strategy](documentation/doxygen/group___f_c_p_l.html#ga54cf6ca4f897ba9ee3695a15fe8e6029) |
+| [H5Pget\_file\_space\_strategy](/documentation/hdf5/latest/group___f_c_p_l.html#ga54cf6ca4f897ba9ee3695a15fe8e6029) |
 | Retrieves the file space handling strategy for a file creation property list. |
-| [H5Pset\_file\_space\_strategy](documentation/doxygen/group___f_c_p_l.html#ga167ff65f392ca3b7f1933b1cee1b9f70) |
+| [H5Pset\_file\_space\_strategy](/documentation/hdf5/latest/group___f_c_p_l.html#ga167ff65f392ca3b7f1933b1cee1b9f70) |
 | Sets the file space allocation strategy for a file creation property list. |
 
 Page Buffering:
 
 | Function              | Description                                                  |
 | --------------------- | ------------------------------------------------------------ |
-| [H5Pget\_page\_buffer\_size](documentation/doxygen/group___f_a_p_l.html#ga0da11baf31cf424d053aa7952c933d98) |
+| [H5Pget\_page\_buffer\_size](/documentation/hdf5/latest/group___f_a_p_l.html#ga0da11baf31cf424d053aa7952c933d98) |
 | Retrieves the maximum size for the page buffer and the minimum percentage for metadata and raw data pages. |
-| [H5Pset\_page\_buffer\_size](documentation/doxygen/group___f_a_p_l.html#ga8008cddafa81bd1ddada23f6d9a161ca) |
+| [H5Pset\_page\_buffer\_size](/documentation/hdf5/latest/group___f_a_p_l.html#ga8008cddafa81bd1ddada23f6d9a161ca) |
 | Sets the maximum size for the page buffer and the minimum percentage for metadata and raw data pages. |
-| [H5Fget\_page\_buffering\_stats](documentation/doxygen/group___h5_f.html#ga0663defe0143631f4292267c21e94202) |
+| [H5Fget\_page\_buffering\_stats](/documentation/hdf5/latest/group___h5_f.html#ga0663defe0143631f4292267c21e94202) |
 | Retrieves statistics about page access when it is enabled. |
-| [H5Freset\_page\_buffering\_stats](documentation/doxygen/group___h5_f.html#ga7ef1c0aab9a7a9112a8d0a788ec8696c) |
+| [H5Freset\_page\_buffering\_stats](/documentation/hdf5/latest/group___h5_f.html#ga7ef1c0aab9a7a9112a8d0a788ec8696c) |
 | Resets the page buffer statistics. |
 
 New and Changed Functions, Classes, Subroutines, Wrappers, and Macros
@@ -462,19 +462,19 @@ The following new C functions were added:
 
 | Function              | Description                                                  |
 | --------------------- | ------------------------------------------------------------ |
-| [H5PLappend](documentation/doxygen/group___h5_p_l.html#gac74200fdc02f794f3fae753fe8b850b0) |
+| [H5PLappend](/documentation/hdf5/latest/group___h5_p_l.html#gac74200fdc02f794f3fae753fe8b850b0) |
 | funcdesc |
-| [H5PLget](documentation/doxygen/group___h5_p_l.html#ga64a3c5450d91455624ecba582553d905) |
+| [H5PLget](/documentation/hdf5/latest/group___h5_p_l.html#ga64a3c5450d91455624ecba582553d905) |
 | funcdesc |
-| [H5PLinsert](documentation/doxygen/group___h5_p_l.html#gacc5153b0db6b3f876c3980bf34f931fc) |
+| [H5PLinsert](/documentation/hdf5/latest/group___h5_p_l.html#gacc5153b0db6b3f876c3980bf34f931fc) |
 | funcdesc |
-| [H5PLprepend](documentation/doxygen/group___h5_p_l.html#ga1f2300ef2de6e430af330de7d194576f) |
+| [H5PLprepend](/documentation/hdf5/latest/group___h5_p_l.html#ga1f2300ef2de6e430af330de7d194576f) |
 | funcdesc |
-| [H5PLremove](documentation/doxygen/group___h5_p_l.html#gaa566196b7c6970c255feac4cf9f3bf40) |
+| [H5PLremove](/documentation/hdf5/latest/group___h5_p_l.html#gaa566196b7c6970c255feac4cf9f3bf40) |
 | funcdesc |
-| [H5PLreplace](documentation/doxygen/group___h5_p_l.html#gab0f8d4e8d0b81cb55cf8b9de5095dc0b) |
+| [H5PLreplace](/documentation/hdf5/latest/group___h5_p_l.html#gab0f8d4e8d0b81cb55cf8b9de5095dc0b) |
 | funcdesc |
-| [H5PLsize](documentation/doxygen/group___h5_p_l.html#ga30b799ad7e9645312ef8975a610b4b18) |
+| [H5PLsize](/documentation/hdf5/latest/group___h5_p_l.html#ga30b799ad7e9645312ef8975a610b4b18) |
 | funcdesc | 
 
 #### In the C++ API
@@ -504,7 +504,7 @@ PLEASE review the Compatibility report below for complete information on the C++
 
 ### Compatibility Report
 
-See the [API compatibility report between 1.10.1 and 1.10.0-patch1]() for details.
+See the [API compatibility report between 1.10.1 and 1.10.0-patch1](https://htmlpreview.github.io/?https://github.com/HDFGroup/hdf5doc/blob/master/html/ADGuide/Compatibility_Report/hdf5-1.10.6-interface_compatibility_report.html) for details.
 
 <h2 id="0versus8_16">Release 1.10.0 versus Release 1.8.16</h2>
 
@@ -555,19 +555,19 @@ Appends data to a dataset along a specified dimension.
 
 | Function          | Description                                                  |
 | ----------------- | ------------------------------------------------------------ |
-| [H5Pget\_append\_flush](documentation/doxygen/group___d_a_p_l.html#gacd6803640eebd20e408c330192b09fa6) |
+| [H5Pget\_append\_flush](/documentation/hdf5/latest/group___d_a_p_l.html#gacd6803640eebd20e408c330192b09fa6) |
 | Retrieves the values of the append property that is set up in the dataset access property list. |
-| [H5Pset\_append\_flush](documentation/doxygen/group___d_a_p_l.html#ga2f685a7b3f3a4fa35ddcd1659ab4a835) |
+| [H5Pset\_append\_flush](/documentation/hdf5/latest/group___d_a_p_l.html#ga2f685a7b3f3a4fa35ddcd1659ab4a835) |
 | Sets two actions to perform when the size of a dataset's dimension being appended reaches a specified boundary. |
-| [H5Pget\_object\_flush\_cb](documentation/doxygen/group___f_a_p_l.html#gadb66d434fd8d2f600213b0eec539564e) |
+| [H5Pget\_object\_flush\_cb](/documentation/hdf5/latest/group___f_a_p_l.html#gadb66d434fd8d2f600213b0eec539564e) |
 | Retrieves the object flush property values from the file access property list. |
-| [H5Pset\_object\_flush\_cb](documentation/doxygen/group___f_a_p_l.html#gab4a4a788af5b6e88381dda0df2efbf19) |
+| [H5Pset\_object\_flush\_cb](/documentation/hdf5/latest/group___f_a_p_l.html#gab4a4a788af5b6e88381dda0df2efbf19) |
 | Sets a callback function to invoke when an object flush occurs in the file. |
-| [H5Odisable\_mdc\_flushes](documentation/doxygen/group___h5_o.html#ga0908be309da1fb4f771c1e264fac22ae) |
+| [H5Odisable\_mdc\_flushes](/documentation/hdf5/latest/group___h5_o.html#ga0908be309da1fb4f771c1e264fac22ae) |
 | Prevents metadata entries for an HDF5 object from being flushed from the metadata cache to storage. |
-| [H5Oenable\_mdc\_flushes](documentation/doxygen/group___h5_o.html#ga21014920bdabf6973e233796d7174156) |
+| [H5Oenable\_mdc\_flushes](/documentation/hdf5/latest/group___h5_o.html#ga21014920bdabf6973e233796d7174156) |
 | Returns the cache entries associated with an HDF5 object to the default metadata flush and eviction algorithm. |
-| [H5Oare\_mdc\_flushes\_disabled](documentation/doxygen/group___h5_o.html#gab2fa388aadd1ff154ee150cbb4884c1c) |
+| [H5Oare\_mdc\_flushes\_disabled](/documentation/hdf5/latest/group___h5_o.html#gab2fa388aadd1ff154ee150cbb4884c1c) |
 | Determines if an HDF5 object (dataset, group, committed datatype) has had flushes of metadata entries disabled. |
  
 Command-line Tools:
@@ -701,11 +701,11 @@ The following new functions appear in HDF5 Release 1.10.0 but are not yet docume
  
 | Function          | Description                                                  |
 | ----------------- | ------------------------------------------------------------ |
-| [H5FDlock](documentation/doxygen/_h5_f_ddevelop_8h.html#a8d1d98a681375a4203bfd74b70b3aadd) | Sets a file lock |
-| [H5FDunlock](documentation/doxygen/_h5_f_ddevelop_8h.html#aebafd003d12e6ec7b56548ce5c169b9d) | Removes a file lock |
-| [H5LDget\_dset\_dims](documentation/doxygen/group___h5_l_t.html#gae8ced4c8df9742761546410c214d8c3b) | Retrieves the current dimension sizes of a dataset |
-| [H5LDget\_dset\_elmts](documentation/doxygen/group___h5_l_t.html#ga4a42f8b0c4d2007906361541d0d6bfdf) | Retrieves selected data from the dataset |
-| [H5LDget\_dset\_type_size](documentation/doxygen/group___h5_l_t.html#gabb424859982bf8953b138372fbf7ba7f) | Returns the size in bytes of the dataset's datatype |
+| [H5FDlock](/documentation/hdf5/latest/_h5_f_ddevelop_8h.html#a8d1d98a681375a4203bfd74b70b3aadd) | Sets a file lock |
+| [H5FDunlock](/documentation/hdf5/latest/_h5_f_ddevelop_8h.html#aebafd003d12e6ec7b56548ce5c169b9d) | Removes a file lock |
+| [H5LDget\_dset\_dims](/documentation/hdf5/latest/group___h5_l_t.html#gae8ced4c8df9742761546410c214d8c3b) | Retrieves the current dimension sizes of a dataset |
+| [H5LDget\_dset\_elmts](/documentation/hdf5/latest/group___h5_l_t.html#ga4a42f8b0c4d2007906361541d0d6bfdf) | Retrieves selected data from the dataset |
+| [H5LDget\_dset\_type_size](/documentation/hdf5/latest/group___h5_l_t.html#gabb424859982bf8953b138372fbf7ba7f) | Returns the size in bytes of the dataset's datatype |
 
 
 New and Changed Elements of the Packet Table (H5PT) High-level API
@@ -812,7 +812,7 @@ H5Lexists
 The behavior of this function has changed in this release. When testing the pathname / (a slash representing the root of an HDF5 file) H5Lexists now returns successfully with the value 1 (one). See the entry in the HDF5 Reference Manual for H5Lexists for more information.
 
 API Compatibility
-See API Compatibility Macros in HDF5 for details on the following.
+See [API Compatibility Macros](/documentation/hdf5/latest/api-compat-macros.html) in HDF5 for details on the following.
 
 New API Compatibility Flag
 
@@ -861,7 +861,7 @@ RELEASE.txt can be found in the release\_docs/ subdirectory at the root level of
 
 ### Compatibility Report and Comments
 
-[Compatibility report for Release 1.10.0 versus Release 1.8.16]()
+[Compatibility report for Release 1.10.0 versus Release 1.8.16](https://htmlpreview.github.io/?https://github.com/HDFGroup/hdf5doc/blob/master/html/ADGuide/Compatibility_Report/CR_1.10.0.html)
 
 Comments regarding the report
 

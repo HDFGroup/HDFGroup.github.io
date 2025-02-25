@@ -8,13 +8,13 @@ redirect_from:
 
 HDF5 1.10 introduces several new features in the HDF5 library. These new features were added in the first three releases of HDF5-1.10. For a brief description of each new feature see:
 
-* [New Features Introduced in HDF5 1.10.8](#new-features-introduced-in-hdf5-1.10.8)
-* [New Features Introduced in HDF5 1.10.7](#new-features-introduced-in-hdf5-1.10.7)
-* [New Features introduced in HDF5 1.10.6](#new-features-introduced-in-hdf5-1.10.6)
-* [New Features introduced in HDF5 1.10.5](#new-features-introduced-in-hdf5-1.10.5)
-* [New Features Introduced in HDF5 1.10.2](#new-features-introduced-in-hdf5-1.10.2)
-* [New Features Introduced in HDF5 1.10.1](#new-features-introduced-in-hdf5-1.10.1)
-* [New Features Introduced in HDF5 1.10.0](#new-features-introduced-in-hdf5-1.10.0)
+* <a href="#newin8">New Features Introduced in HDF5 1.10.8</a>
+* <a href="#newin7">New Features Introduced in HDF5 1.10.7</a>
+* <a href="#newin6">New Features introduced in HDF5 1.10.6</a>
+* <a href="#newin5">New Features introduced in HDF5 1.10.5</a>
+* <a href="#newin2">New Features Introduced in HDF5 1.10.2</a>
+* <a href="#newin1">New Features Introduced in HDF5 1.10.1</a>
+* <a href="#newin0">New Features Introduced in HDF5 1.10.0</a>
 
 ~~~
 This release includes changes in the HDF5 storage format. For detailed information on the changes, see: Changes to the File Format Specification
@@ -28,10 +28,10 @@ Due to the requirements of some of the new features, the format of a 1.10.x HDF5
 If an application built on HDF5 Release 1.10 avoids use of the new features and does not request use of the latest format, applications built on HDF5 Release 1.8.x will be able to read files the first application created. In addition, applications originally written for use with HDF5 Release 1.8.x can be linked against a suitably configured HDF5 Release 1.10.x library, thus taking advantage of performance improvements in 1.10.
 ~~~
 
-## New Features Introduced in HDF5 1.10.8
+<h2 id="newin8">New Features Introduced in HDF5 1.10.8</h2>
 The following important new features and changes were introduced in HDF5-1.10.8. For complete details see the Release Notes and the Software Changes from Release to Release page.
 
-## New Features Introduced in HDF5 1.10.7
+<h2 id="newin7">New Features Introduced in HDF5 1.10.7</h2>
 The following important new features and changes were introduced in HDF5-1.10.7. For complete details see the Release Notes and the Software Changes from Release to Release page.
 
 Addition of AEC (open source SZip) Compression Library
@@ -48,7 +48,7 @@ Performance has continued to improve in this release. Please see the images unde
 Addition of Hyperslab Selection Functions
 Several hyperslab selection routines introduced in HDF5-1.12 were ported to 1.10. See the Software Changes from Release to Release page for details.
                                                                                                 
-## New Features Introduced in HDF5 1.10.6
+<h2 id="newin6">New Features Introduced in HDF5 1.10.6</h2>
 The following important new features and changes were introduced in HDF5-1.10.6. For complete details see the Release Notes and the Software Changes from Release to Release page:
 
 ### Improvements to the CMake Support
@@ -67,7 +67,7 @@ See the Virtual File Drivers - S3 and HDFS page for more information.
 ### Improvement to Performance
 Performance was improved when creating a large number of small datasets.
 
-## New Features Introduced in HDF5 1.10.5
+<h2 id="newin5">New Features Introduced in HDF5 1.10.5</h2>
 The following important new features were added in HDF5-1.10.5. Please see the release announcement and Software Changes from Release to Release page for more details regarding these features:
 
 ### Minimized Dataset Object Headers (RFC)
@@ -122,7 +122,7 @@ H5D_GET_CHUNK_INFO  Retrieves information about a chunk specified by the chunk i
 H5D_GET_CHUNK_INFO_BY_COORD Retrieves information about a chunk specified by its coordinates
 H5D_GET_NUM_CHUNKS  Retrieves number of chunks that have nonempty intersection with a specified selection
 
-## New Features Introduced in HDF5 1.10.2
+<h2 id="newin2">New Features Introduced in HDF5 1.10.2</h2>
 Several important features and changes were added to HDF5 1.10.2. See the release announcement and blog for complete details. Following are the major new features:
 
 ### Forward Compatibility for HDF5 1.8-based Applications Accessing Files Created by HDF5 1.10.2 ( RFC )
@@ -136,7 +136,7 @@ Optimizations were introduced to parallel HDF5 for improving the performance of 
 HDF5 parallel applications can now write data using compression (and other filters such as the Fletcher32 checksum filter).
 
 
-## New Features Introduced in HDF5 1.10.1
+<h2 id="newin1">New Features Introduced in HDF5 1.10.1</h2>
 
 ### Metadata Cache Image ( RFC ) -> Fine-tuning the Metadata Cache *
 HDF5 metadata is typically small, and scattered throughout the HDF5 file. This can affect performance, particularly on large HPC systems. The Metadata Cache Image feature can improve performance by writing the metadata cache in a single block on file close, and then populating the cache with the contents of this block on file open, thus avoiding the many small I/O operations that would otherwise be required on file open and close.
@@ -153,7 +153,7 @@ Small and random I/O accesses on parallel file systems result in poor performanc
 
 
 
-## New Features Introduced in HDF5 1.10.0
+<h2 id="newin0">New Features Introduced in HDF5 1.10.0</h2>
 
 ### SWMR *
 Data acquisition and computer modeling systems often need to analyze and visualize data while it is being written. It is not unusual, for example, for an application to produce results in the middle of a run that suggest some basic parameters be changed, sensors be adjusted, or the run be scrapped entirely.

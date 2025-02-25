@@ -3497,7 +3497,7 @@ ssize_t H5DSget_label(hid_t did, unsigned int idx, char *label, size_t size)
 
 H5DSget_scale_name    
 
-hssize_t H5DSget_scale_name(hid_t did, char name, size_t *size)
+hssize_t H5DSget_scale_name(hid_t did, char name, size_t \*size)
 
 H5DSget_num_scales
 
@@ -3545,7 +3545,7 @@ H5Pget_fapl_stream
 
       
 
-The stream virtual file driver (H5FD_STREAM) has been removed from the HDF5 distribution. The functionality was last available from http://hdf5-addons.origo.ethz.ch/.
+The stream virtual file driver (H5FD_STREAM) has been removed from the HDF5 distribution. The functionality was last available from http://hdf5-addons.origo.ethz.ch/.  Update: as of 2025, this URL is no longer valid.
 
 H5Tset_overflow
 H5Tget_overflow
@@ -3554,7 +3554,7 @@ H5Tget_overflow
 
 These two functions are replaced by H5Pget_type_conv_cb and H5Pset_type_conv_cb.
 
-Several functions, subroutines, and wrappers are deprecated in this HDF5 release and may eventually be removed from the HDF5 distribution and from the HDF5 Reference Manual. A Release 1.6.x compatibility mode is provided enabling these and other Release 1.6.x compatibility features, but is available only if the HDF5 Library is configured with the default settings or with the flag --with-default-api-version=v16. Release 1.8.0 also provides macros that can be mapped selectively to 1.6.x and 1.8.0 function versions according to the needs of a user application. The backward compatibility mode is enabled in the Release 1.8.0 binaries distributed by NCSA. See API Compatibility Macros in HDF5 for full details.
+Several functions, subroutines, and wrappers are deprecated in this HDF5 release and may eventually be removed from the HDF5 distribution and from the HDF5 Reference Manual. A Release 1.6.x compatibility mode is provided enabling these and other Release 1.6.x compatibility features, but is available only if the HDF5 Library is configured with the default settings or with the flag --with-default-api-version=v16. Release 1.8.0 also provides macros that can be mapped selectively to 1.6.x and 1.8.0 function versions according to the needs of a user application. The backward compatibility mode is enabled in the Release 1.8.0 binaries distributed by NCSA. See [API Compatibility Macros](/documentation/hdf5/latest/api-compat-macros.html) in HDF5 for full details.
 
  
 Deprecated functions are marked in the function index at the beginning of each API section in the HDF5 Reference Manual.
@@ -3620,7 +3620,7 @@ Two new filter identifiers are available for the filter or filter_id parameters:
  
 
 Functions with Changed Syntax
-Function syntax changes in this release are handled through the mechanism described in API Compatibility Macros in HDF5.
+Function syntax changes in this release are handled through the mechanism described in [API Compatibility Macros](/documentation/hdf5/latest/api-compat-macros.html) in HDF5.
 
 Exceptions:
 
@@ -3647,7 +3647,7 @@ The new function signature is generally considered equivalent to the old signatu
 (This note added in February 2010, following Release 1.8.4.)
 
 Renamed Functions
-The following C functions have been renamed. The original function names remain available under certain circumstances; see API Compatibility Macros in HDF5 for full details.
+The following C functions have been renamed. The original function names remain available under certain circumstances; see [API Compatibility Macros](/documentation/hdf5/latest/api-compat-macros.html) in HDF5 for full details.
 
 Original name
 
