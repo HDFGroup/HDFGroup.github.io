@@ -1,7 +1,7 @@
 ---
 title: HDF5 Data Flow Pipeline for H5Dread
 redirect_from:
-  - display/HDF5/HDF5+Data+Flow+Pipeline+for+H5Dread
+- display/HDF5/HDF5+Data+Flow+Pipeline+for+H5Dread
 ---
 
 # HDF5 Data Flow Pipeline for H5Dread
@@ -279,7 +279,7 @@ This document was written as background material for a specific project. The pri
 | August 30, 2017   | Converted to web document; updated errors in figure numbering (Names for figures 8 and 9 were used twice.)
 
 <h2 id="suggested-revs">Suggested Revisions</h2>
- These suggested revisions were deferred due to time constraints. Readers are encouraged to create issues in [HDF5 GitHub](https://github.com/HDFGroup/hdf5/issues) for corrections and/or suggestions.
+ These suggested revisions were deferred due to time constraints. Readers are encouraged to send additional suggestions for improving the document to docs@hdfgroup.org. 
 
 * Add a simpler example with no chunking, no filters, and no subsetting. This would document how things are different without chunked storage, and introduce the concepts more gradually.
 * Move the Activity Diagram to the beginning of the document, and add text explaining it. Possibly add another activity diagram that shows the data flow pipeline in less detail, then show the detailed version.
