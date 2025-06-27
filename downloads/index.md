@@ -24,7 +24,7 @@ redirect_from:
 
 | Version | Usage | 
 | ---- | ----| 
-| [HDF 4.3.0](hdf4/hdf4_3_0.html) | New 4.3.x series with significant changes in public/private components | 
+| [HDF 4.3.1](hdf4/hdf4_3_1.html) | Series 4.3.x contains significant changes in public/private components | 
 | [HDF 4.2.16-2](hdf4/hdf4_2_16-2.html) (Patch Release) | Last release of the 4.2.x series | 
 
 ## h4h5tools
