@@ -36,11 +36,11 @@ redirect_from:
 * [Post Install Configuration](https://github.com/HDFGroup/hsds/blob/master/docs/post_install.md)
 
 ## HDF4 Library and Tools
-* [Reference Manual](https://zenodo.org/records/13310709)
-* [User Guide](https://zenodo.org/records/13310689)
-* [HDF4 Specification and Developers Guide](https://zenodo.org/records/13310722) 
-* [Build and Install HDF4 Applications with CMake](https://github.com/HDFGroup/hdf4/blob/master/release_notes/USING_HDF4_CMake.txt)
-* [Build and Install HDF4 C, C++, Fortran Libraries and tools with CMake](https://github.com/HDFGroup/hdf4/blob/master/release_notes/INSTALL_CMake.txt)
+* [HDF Reference Manual](https://zenodo.org/records/13310709)
+* [HDF User's Guide](https://zenodo.org/records/13310689)
+* [HDF Specification and Developer's Guide](https://zenodo.org/records/13310722)
+* [Build and Install HDF4 Applications with CMake](https://github.com/HDFGroup/hdf4/blob/master/release_docs/USING_HDF4_CMake.txt)
+* [Build and Install HDF4 C, C++, Fortran Libraries and tools with CMake](https://github.com/HDFGroup/hdf4/blob/master/release_docs/INSTALL_CMake.txt)
 * [HDF 4.2 to 4.3 Migration Guide](https://github.com/HDFGroup/hdf4/blob/master/doc/HDF-4.2-to-4.3-migration.md) 
 
 ## h4h5Tools
