@@ -28,7 +28,8 @@ HDFView 3.4.1 source and binaries are available [here](https://github.com/HDFGro
 HDFView 3.4.1 was built and tested with HDF5-2.0.0, HDF 4.3.1, and openjdk 21. 
 
 This release provides two ways to install the HDFView pre-built binary distribution for a platform:
-* Using an application image. This method simply requires running the provided executable to obtain the software.
+* Using an application image. This method simply requires extracting the downloaded HDFView-3.4.1App\*.tar.gz or .zip file in the chosen install location.
+
 * Running an installer. This method runs an installer (eg .exe) that sets up file associations and menu items.
 
 Once you have uncompressed the downloaded pre-built binary file, refer to the provided README file for details.
