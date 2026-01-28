@@ -9,7 +9,7 @@ title: HDFView 3.4.1
 ## Release Information
 
 | Version | HDFView 3.4.1 |
-| Release Date | 12/31/2025 |
+| Release Date | 1/27/2026 |
 | Additional Release Information | [CHANGELOG](https://github.com/HDFGroup/hdfview/blob/release/hdfview-3.4.1/docs/UsersGuide/CHANGELOG.md) |
 | | [Release Announcement](https://www.hdfgroup.org/) | 
 | | [Known Problems](https://github.com/HDFGroup/hdfview/blob/release/hdfview-3.4.1/docs/UsersGuide/CHANGELOG.md#-known-problems) |
