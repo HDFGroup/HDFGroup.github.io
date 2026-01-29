@@ -9,9 +9,9 @@ title: HDFView 3.4.1
 ## Release Information
 
 | Version | HDFView 3.4.1 |
-| Release Date | 1/27/2026 |
+| Release Date | ![GitHub release (latest by date)](https://img.shields.io/github/v/release/HDFGroup/HDFView?label=HDFView&color=white) | ![GitHub Release Date](https://img.shields.io/github/release-date/HDFGroup/HDFView?label=&color=white) |
 | Additional Release Information | [CHANGELOG](https://github.com/HDFGroup/hdfview/blob/release/hdfview-3.4.1/docs/UsersGuide/CHANGELOG.md) |
-| | [Release Announcement](https://www.hdfgroup.org/) | 
+| | [Release Announcement](https://www.hdfgroup.org/2026/01/30/release-of-hdfview-3-4-1-newsletter-208) |
 | | [Known Problems](#known-problems-in-this-release) |
 
 ## Documentation
