@@ -4,14 +4,11 @@ title: HDFView 3.4.1
 
 <img alt="HDFView Logo" align=right width=300 src="/assets/img/hdfview.png">
 
-# HDFView ![GitHub release (latest by date)](https://img.shields.io/github/v/release/HDFGroup/HDFView?label=Version&color=white)
+# HDFView ![GitHub release (latest by date)](https://img.shields.io/github/v/release/HDFGroup/HDFView?label=Version&color=white) ![GitHub Release Date](https://img.shields.io/badge/dynamic/json?label=released&query=$.published_at&url=https://api.github.com/repos/HDFGROUP/HDFView/releases/latest&color=white)
 
-## Release Information
-
-| Release Date | ![GitHub Release Date](https://img.shields.io/badge/dynamic/json?label=released&query=$.published_at&url=https://api.github.com/repos/HDFGROUP/HDFView/releases/latest&color=white) |
-| Additional Release Information | [CHANGELOG](https://github.com/HDFGroup/hdfview/blob/release/hdfview-3.4.1/docs/UsersGuide/CHANGELOG.md) |
-| | [Release Announcement](https://www.hdfgroup.org/2026/01/30/release-of-hdfview-3-4-1-newsletter-208) |
-| | [Known Problems](#known-problems-in-this-release) |
+| [Release Announcement](https://www.hdfgroup.org/2026/01/30/release-of-hdfview-3-4-1-newsletter-208)
+| [CHANGELOG](https://github.com/HDFGroup/hdfview/blob/release/hdfview-3.4.1/docs/UsersGuide/CHANGELOG.md)
+| [Known Problems](#known-problems-in-this-release)
 
 ## Documentation
 
