@@ -13,12 +13,13 @@ redirect_from:
 | Version | Usage | 
 | ---- | ----| 
 | [HDF5 2.0.0](https://support.hdfgroup.org/documentation/hdf5/latest/rel_spec_20.html) | Most recent HDF5 library version. |
+| [HDF5 1.14.6](https://support.hdfgroup.org/documentation/hdf5/latest/rel_spec_114.html) | Last release of the 1.14.x series |
 
 ## HDFView
  
 | Version | Usage | 
 | ---- | ----| 
-| [HDFView 3.3.2](hdfview/hdfview3_3_2.html) | Most recent version; built and tested with HDF5-1.14.4, HDF 4.3.0, and openjdk 21.  |
+| [HDFView 3.4.1](hdfview/hdfview3_4_1.html) | Most recent version; built and tested with HDF5-2.0.0, HDF 4.3.1, and openjdk 21.  |
 
 ## HDF4 Library
 
