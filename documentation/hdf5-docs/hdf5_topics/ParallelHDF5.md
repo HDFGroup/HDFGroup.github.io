@@ -5,7 +5,7 @@ redirect_from:
 ---
 
 # Installation Instructions
-Instructions for installing HDF5 can be found in the INSTALL_parallel file in the release_docs/ directory of the source code.
+Instructions for installing HDF5 can be found in the README_HPC.md file in the release_docs/ directory of the source code.
 
 # Tutorials and Presentations
 There are several HDF5 tutorials and presentations that will help in learning Parallel HDF5:
@@ -41,7 +41,7 @@ Information on performance can be found in the following documents and frequentl
 ### Hints to using Parallel HDF5 ([PDF](parallelhdf5hints.pdf))
 ### How to improve performance with Parallel HDF5
 
-Tuning parallel HDF5 for a specific application on a specific system requires playing with a lot of tunable parameters many of which are specific to certain platforms. Not all hints are applicable to all platforms, and some hints may be ignored even if they can be applied. The best practice here is to look at each system's webpage on how to tune I/O parameters.
+Tuning parallel HDF5 for a specific application on a specific system requires playing with a lot of tunable parameters many of which are specific to certain platforms. Not all hints apply to all platforms, and some hints may be ignored even if they can be applied. The best practice here is to look at each system's webpage on how to tune I/O parameters.
 
 Here are some general parameters that users should consider tuning when they see slow I/O performance from HDF5:
 
@@ -79,4 +79,4 @@ For most parallel file systems the two parameters that are usually tunable and v
   * Stripe Count: Controls the number of I/O devices to stripe across.
 
 # PHDF5 Design Documents
-Enabling a Strict Consistency Semantics Model in Parallel HDF5([PDF](https://docs.hdfgroup.org/hdf5/rfc/RFC%20PHDF5%20Consistency%20Semantics%20MC%20120328.docx.pdf))
+Enabling a Strict Consistency Semantics Model in Parallel HDF5([PDF](https://support.hdfgroup.org/releases/hdf5/documentation/rfc/RFC%20PHDF5%20Consistency%20Semantics%20MC%20120328.docx.pdf))
