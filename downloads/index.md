@@ -12,7 +12,7 @@ redirect_from:
 
 | Version | Usage | 
 | ---- | ----| 
-| [HDF5 2.0.0](https://support.hdfgroup.org/documentation/hdf5/latest/rel_spec_20.html) | Most recent HDF5 library version. |
+| [HDF5 2.1.0](https://support.hdfgroup.org/documentation/hdf5/latest/rel_spec_2x.html) | Most recent HDF5 library version. |
 | [HDF5 1.14.6](https://support.hdfgroup.org/documentation/hdf5/latest/rel_spec_114.html) | Last release of the 1.14.x series |
 
 ## HDFView
