@@ -12,7 +12,7 @@ redirect_from:
 
 | Version | Usage | 
 | ---- | ----| 
-| [HDF5 2.1.0](https://support.hdfgroup.org/documentation/hdf5/latest/rel_spec_2x.html) | Most recent HDF5 library version. |
+| [HDF5 2.2.0](https://support.hdfgroup.org/documentation/hdf5/latest/rel_spec_2x.html) | Most recent HDF5 library version. |
 | [HDF5 1.14.6](https://support.hdfgroup.org/documentation/hdf5/latest/rel_spec_114.html) | Last release of the 1.14.x series |
 
 ## HDFView
@@ -25,7 +25,8 @@ redirect_from:
 
 | Version | Usage | 
 | ---- | ----| 
-| [HDF 4.3.1](hdf4/hdf4_3_1.html) | Series 4.3.x contains significant changes in public/private components | 
+| [HDF 4.4.0](hdf4/hdf4_4_0.html) | Series 4.4.x contains significant changes in public/private components | 
+| [HDF 4.3.1](hdf4/hdf4_3_1.html) | Series 4.3.x contains significant changes in public/private components - Last release of the 4.3.x series | 
 | [HDF 4.2.16-2](hdf4/hdf4_2_16-2.html) (Patch Release) | Last release of the 4.2.x series | 
 
 ## h4h5tools
