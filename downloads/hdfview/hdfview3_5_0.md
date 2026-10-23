@@ -6,9 +6,9 @@ title: HDFView 3.5.0
 
 # HDFView ![GitHub release (latest by date)](https://img.shields.io/github/v/release/HDFGroup/HDFView?label=Version&color=white) ![GitHub Release Date](https://img.shields.io/badge/dynamic/json?label=Released&query=$.published_at&url=https://api.github.com/repos/HDFGROUP/HDFView/releases/latest&color=white)
 
-| [Release Announcement](https://github.com/HDFGroup/hdfview/releases#release-v3.5.0)
-| [CHANGELOG](https://github.com/HDFGroup/hdfview/blob/release/hdfview-3.5.0/docs/UsersGuide/CHANGELOG.md)
-| [Known Problems](#known-problems-in-this-release)
+| [Release Announcement](https://github.com/HDFGroup/hdfview/releases/tag/v3.5.0#release-v3.5.0)
+| [CHANGELOG](https://github.com/HDFGroup/hdfview/releases/tag/v3.5.0/docs/UsersGuide/CHANGELOG.md)
+| [Known Problems](https://github.com/HDFGroup/hdfview/releases/tag/v3.5.0/docs/UsersGuide/CHANGELOG.md#-known-problems)
 
 ## Documentation
 
@@ -31,19 +31,3 @@ This release provides two ways to install the HDFView pre-built binary distribut
 Once you have uncompressed the downloaded pre-built binary file, refer to the provided README file for details.
 
 See Known Problems if you encounter any issues.
-
-## Known Problems In This Release
-
-* **Large Dataset Handling**: HDFView currently cannot nicely handle large datasets when using the default display mode, as the data is loaded in its entirety. To view large datasets, it is recommended to right click on a data object and use the "Open As" menu item, where a subset of data to view can be selected.
-
-* **Object/Region References in Compound Types**: Object/region references can't be opened by a double-click or by right-clicking and choosing "Show As Table/Image" when inside a compound datatype.
-
-* **Export Dataset in Read-Only Mode**: If a file is opened in read-only mode, right-clicking on a dataset in the tree view and choosing any of the options under the "Export Dataset" menu item will fail with a message of 'Unable to export dataset: Unable to open file'. The current workaround is to re-open the file in read/write mode.
-
-* **Recent Files Button on Mac**: The 'Recent Files' button does not work on Mac due to a cross-platform issue with SWT.
-
-* **PaletteView Selection**: Selecting and changing individual points in PaletteView for an image palette is broken.
-
-* **Source Rebuild Requirements**: Logging and optional HDF4 requires rebuilds from source.
-
-* **Mac File Display**: Automatically opening HDFView and displaying a file selected still does not display the file on a mac.
