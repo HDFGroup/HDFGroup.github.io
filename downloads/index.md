@@ -19,7 +19,7 @@ redirect_from:
  
 | Version | Usage | 
 | ---- | ----| 
-| [HDFView 3.4.1](hdfview/hdfview3_4_1.html) | Most recent version; built and tested with HDF5-2.0.0, HDF 4.3.1, and openjdk 21.  |
+| [HDFView 3.5.0](https://github.com/HDFGroup/hdfview/releases/tag/v3.5.0) | Most recent version; built and tested with HDF5-2.2.0, HDF 4.4.0, and OpenJDK 21.  |
 
 ## HDF4 Library
 
